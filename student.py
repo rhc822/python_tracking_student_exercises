@@ -6,3 +6,7 @@ class Student:
         self.last_name = last_name
         self.student_cohort = student_cohort
         self.student_exercises = list()
+
+# OTHER way to assign exercises to student (helper method)
+    #def assign_exercise(self, exercise):
+    #    self.student_exercises.append(exercise)
